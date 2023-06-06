@@ -1,4 +1,3 @@
 # landing-page
-
-CREDITS:
-Image in Hero: https://www.pexels.com/@fauxels/
+- second project follwing The Odin Project
+- applying the stuff I learned so far in HTML and CSS
