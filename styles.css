@@ -22,7 +22,7 @@ body {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 ul {
@@ -30,6 +30,7 @@ ul {
     margin: 0;
     padding: 0;
     gap: 20px;
+    font-size: 20px;
 
     display: flex;
 }
@@ -49,7 +50,7 @@ ul {
 }
 
 #secondary-text {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .hero-image {
@@ -93,6 +94,7 @@ ul {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 100px;
 }
 
 .main-content-image {
@@ -109,6 +111,7 @@ li {
 }
 
 #subtext {
+    font-size: 20px;
     text-align: center;
     color: #1F2937;
 }
@@ -129,9 +132,55 @@ li {
 }
 
 .quote-author {
-    font-size: 15px;
+    font-size: 26px;
     font-weight: bold;
     color: #1f2937;
 
     align-self: flex-end;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    color: white;
+    margin: 100px;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#larger-text {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#smaller-text {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.main-content > .blue-box > button {
+    background-color: #3882f6;
+    border: 3px solid white;
+    height: 50px;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.footer {
+    padding: 50px;
+    background-color: #1F2937;
+    color: white;
+    font-size: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
